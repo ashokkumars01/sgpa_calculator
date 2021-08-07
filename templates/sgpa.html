@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>SGPA Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body style='background-color:#f0f8ff'>
+
+        <center>
+		<h1> Semester 6 <h1>
+        <h2> VTU SGPA Calculator</h2><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Digital Communication :<br><input type="text", name='a', placeholder="Enter obtained marks" required><br><br>
+            Credit points :<br><input type="text", name='b', placeholder="Enter credit points" required> <br><br>
+            Embedded Systems :<br><input type="text", name='d', placeholder="Enter obtained marks" required> <br><br>
+            Credit points :<br><input type="text", name='e', placeholder="Enter credit points" required> <br><br>
+			Microwave and Antennas :<br><input type="text", name='g', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='h', placeholder="Enter credit points" required> <br><br>
+			Python Application Programming :<br><input type="text", name='j', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='k', placeholder="Enter credit points" required> <br><br>
+			Open Elective :<br><input type="text", name='m', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='n', placeholder="Enter credit points" required> <br><br>
+			Mini Project :<br><input type="text", name='p', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='q', placeholder="Enter credit points" required> <br><br>
+			Embedded Systems Lab :<br><input type="text", name='s', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='t', placeholder="Enter credit points" required> <br><br>
+			Communication Lab :<br><input type="text", name='v', placeholder="Enter obtained marks" required> <br><br>
+			Credit points :<br><input type="text", name='w', placeholder="Enter credit points" required> <br><br>
+			<!--Enter Subject-9 obtained marks : <input type="text", name='y', placeholder="Enter Subject-9 obtained marks" required> <br><br>
+			Enter Subject-9 credit points : <input type="text", name='z', placeholder="Enter Subject-9 credit points" required> <br><br> -->
+			<br></b>
+            <input type="submit" , value='Submit' >
+        </form>
+		 <p> {{data}}</p>
+
+    </center>
+<footer>
+  <p>Developed By: Ashok Kumar S<br>
+</footer>
+    </body>
+</html>
