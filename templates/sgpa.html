@@ -3,11 +3,11 @@
 <title>SGPA Calculator</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-    <body style='background-color:#F0FFFF position:fixed'> <!--#f0f8ff-->
+    <body style='background-color:#F0FFFF'> <!--#f0f8ff-->
 
         <center>
 		<h1> Semester 6 <h1>
-        <h2> VTU SGPA Calculator</h2>
+        <h2> VTU SGPA Calculator</h2><br>
         
         <form method="POST", action="{{url_for('home')}}">
            <b> Digital Communication <br><input type="text", name='a', placeholder="Enter obtained marks" required><br><br>
@@ -23,13 +23,14 @@
 			<br></b>
             <input type="submit" , value='Submit' >
         </form>
+		<br>
 		 <h2> {{data}}  </h2>
 		<br>
 		<br>
     </center>
 	<center>
 <footer>
-  <p>Developed By: Ashok Kumar S<br>
+  <p>Developed By: Ashok Kumar S<p>
 </footer>
 </center>
     </body>
